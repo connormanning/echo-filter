@@ -1,0 +1,19 @@
+[
+    {
+        "type": "readers.las",
+        "filename": "https://entwine.io/data/red-rocks.laz"
+    },
+    {
+        "type": "filters.echo",
+        "value": "At position A"
+    },
+    {
+        "type": "writers.las",
+        "filename": "/tmp/something.las"
+    },
+    {
+        "type": "filters.echo",
+        "value": "At position B"
+    }
+]
+
